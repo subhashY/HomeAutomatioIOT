@@ -1,0 +1,92 @@
+/* nb-card {
+  background-color: transparent;
+  border-width: 0;
+  box-shadow: none;
+  margin: 0;
+}
+
+nb-card-header {
+  border-color: transparent;
+}
+
+svg {
+  width: 100%;
+}
+
+.stroke-pattern {
+  fill: none;
+  stroke: #bdc4cd;
+  stroke-miterlimit: 10;
+  opacity: 0.1;
+  stroke-width: 1px;
+}
+
+.stroked-element {
+  stroke-width: 4px;
+  stroke: #bdc4cd;
+  stroke-miterlimit: 10;
+}
+
+.room-border {
+  stroke-width: 4px;
+  stroke: #bdc4cd;
+  stroke-miterlimit: 10;
+  fill: none;
+}
+
+.room-bg {
+  fill: whitesmoke;
+  stroke: transparent;
+  cursor: pointer;
+  stroke-width: 4px;
+}
+
+.room-bg-border-grad {
+  fill: none;
+  stroke: none;
+  stroke-width: 4px;
+}
+
+.room-text {
+  cursor: pointer;
+  user-select: none;
+  pointer-events: none;
+  fill: rgb(54, 52, 52);
+}
+
+.selected-room {
+  z-index: 40;
+}
+
+.room-border {
+  stroke: rgb(212, 199, 199);
+}
+
+
+.header {
+  border-bottom: none;
+  padding-bottom: 0;
+} */
+
+.light-Card-color {  
+    background: #72733642;
+}
+.light-image-color {
+    background: yellow;
+}
+
+.laptop-color{
+  background-color: #506d5c75;
+}
+.running1{
+  -webkit-animation: rotation 2s infinite linear;
+  animation: rotate 2s linear infinite;
+}
+.running {
+    -webkit-animation:spin 1s linear infinite;
+    -moz-animation:spin 1s linear infinite;
+    animation:spin 1s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

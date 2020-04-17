@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    overflow-x: hidden;
+height: 100%;
+box-sizing: border-box;
+max-width: 100%;
+background: url(assets/img/12.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+position: relative;
+}

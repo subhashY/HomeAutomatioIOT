@@ -1,0 +1,47 @@
+<div class="card mb-3">
+  <div class="card-body">
+      <h5 class="card-title">Rooms</h5>
+        
+      <!-- <p class="card-text">This is a wider card with supporting text and below as a natural lead-in to the additional content. This content is a little</p> --> 
+      <div class="row">
+        <div [ngClass]="lightCardColor" id="1">
+          <img src="assets/img/lightBulb.png" alt="lighgtbulb.png" height="50" width="50" [ngClass]="lightImageColor">
+          <h6 style="
+          margin-top: -44px;
+          margin-left: 65px;
+      ">Light Room 1<p class="text-info text-sm-left">{{light1Status}}</p></h6>
+        </div>
+      <!-- </div> -->
+      <!-- <div class="row">   -->
+        <div [ngClass]="laptopCardColor" id="2">
+            <img src="assets/img/laptop.png" alt="lighgtbulb.png" height="50" width="50" class="card mt-1" [ngClass]="laptopColor">
+            <h6 style="
+            margin-top: -44px;
+            margin-left: 65px;
+        ">Laptop<p class="text-info text-sm-left">{{laptopStatus}}</p></h6>
+        </div>
+      </div>
+      <div class="row">  
+        <div [ngClass]="light2CardColor">
+            <img src="assets/img/lightBulb.png" alt="lighgtbulb.png" height="50" width="50" [ngClass]="light2ImageColor">
+            <h6 style="
+            margin-top: -44px;
+            margin-left: 65px;
+        ">Light Room 2<p class="text-info text-sm-left">{{light2Status}}</p></h6>
+        </div>
+      <!-- </div> -->
+      <!-- <div class="row">   -->
+          <div [ngClass]="fanCardColor">
+              <img src="assets/img/fan.png" alt="lighgtbulb.png" height="50" width="50" [ngClass]="spinFan">
+              <h6 style="
+              margin-top: -44px;
+              margin-left: 65px;
+          ">AC<p class="text-info text-sm-left">{{acStatus}}</p></h6>
+        </div>
+      </div>
+  </div>
+  <!-- <div class="card-footer">
+      <p class="card-text d-inline">Card footer</p>
+      <a href="javascript:void()" class="card-link float-right">Card link</a>
+  </div> -->
+</div>  
